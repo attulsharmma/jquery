@@ -1,0 +1,32 @@
+$(function () {
+    var paragraph1 = document.querySelector('.p1').querySelector('p');
+    var paragraph2 = document.querySelector('.p2').querySelector('p');
+    var paragraph3 = document.querySelector('.p3').querySelector('p');
+    var paragraph4 = document.querySelector('.p4').querySelector('p');
+    var paragraph5 = document.querySelector('.p5').querySelector('p');
+    var paragraph6 = document.querySelector('.p6').querySelector('p');
+    $clamp(paragraph1, {
+        clamp: 4,
+        useNativeClamp: false
+    });
+    $clamp(paragraph2, {
+        clamp: 4,
+        useNativeClamp: false
+    });
+    $clamp(paragraph3, {
+        clamp: 4,
+        useNativeClamp: false
+    });
+    $clamp(paragraph4, {
+        clamp: 4,
+        useNativeClamp: false
+    });
+    $clamp(paragraph5, {
+        clamp: 4,
+        useNativeClamp: false
+    });
+    $clamp(paragraph6, {
+        clamp: 4,
+        useNativeClamp: false
+    });
+});
