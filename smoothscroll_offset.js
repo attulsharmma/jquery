@@ -15,3 +15,8 @@ $(function () {
     });
   });
 });
+
+
+// here 100 is the amount of padding or margin or height of the navbar
+// here 900 is time duration for animating
+// var target = this.hash is used to get the hash value or id value of the anchor tag
