@@ -19,4 +19,5 @@ $(function () {
 
 // here 100 is the amount of padding or margin or height of the navbar
 // here 900 is time duration for animating
+// add class smooth scroll in which you want to apply smooth scroll
 // var target = this.hash is used to get the hash value or id value of the anchor tag
