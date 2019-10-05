@@ -2,7 +2,7 @@
       Smooth Scroll with offset
 =================================*/
 $(function () {
-  $('a[href^="#"]').on('click', function (e) {
+  $('a.smooth-scroll[href^="#"]').on('click', function (e) {
     // e.preventDefault();
     var target = this.hash,
       $target = $(target);
